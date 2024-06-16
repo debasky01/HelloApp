@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mycompany</groupId>
-	<artifactId>hello-app</artifactId>
+	<artifactId>hello-application</artifactId>
 	<packaging>jar</packaging>
 	<version>2.0.0-SNAPSHOT</version>
 	
@@ -133,7 +133,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/calculator-application</contextPath>
+						<contextPath>/hello-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -146,7 +146,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>calculator-application</wtpContextName>
+					<wtpContextName>hello-application</wtpContextName>
 				</configuration>
 			</plugin>
 			<plugin>
