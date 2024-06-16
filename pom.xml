@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.example</groupId>
+	<groupId>com.mycompany</groupId>
 	<artifactId>hello-app</artifactId>
 	<packaging>jar</packaging>
 	<version>2.0.0-SNAPSHOT</version>
@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Acada Learning</name>
-		<url>http://acadalearning.com/</url>
+		<name>Gensogram</name>
+		<url>http://gensogram.com/</url>
 	</organization>
 
 	<properties>
@@ -100,13 +100,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Acada Learning Releases Nexus Repository</name>
+	      <name>Gensogram Releases Nexus Repository</name>
 	      <url>http://172.31.7.144:8081/repository/maven-web-app-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Acada Learning Snapshot Nexus Repository</name>
+	      <name>Gensogram Snapshot Nexus Repository</name>
 	      <url>http://172.31.7.144:8081/repository/maven-web-app-snapshot/</url>
 	    </snapshotRepository>
 	    
